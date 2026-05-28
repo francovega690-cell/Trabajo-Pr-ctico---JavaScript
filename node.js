@@ -1,7 +1,7 @@
-let suma = 0;
-
-for (let i = 1; i <= 100; i++) {
-  suma += i;
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i + " es par");
+  } else {
+    console.log(i + " es impar");
+  }
 }
-
-console.log("La suma es: " + suma);
