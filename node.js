@@ -1,4 +1,4 @@
-const nombre = "Matias";
+const nombre = "Franco";
 const notas = [1, 8, 9, 9, 10];
 
 let suma = 0;
