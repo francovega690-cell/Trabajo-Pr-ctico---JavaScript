@@ -1,7 +1,10 @@
-for (let i = 1; i <= 20; i++) {
-  if (i % 2 === 0) {
-    console.log(i + " es par");
-  } else {
-    console.log(i + " es impar");
-  }
-}
+let persona = {
+  nombre: "Franco",
+  edad: 17,
+  nota: 10,
+  aprobado: true,
+};
+console.log(persona.nombre);
+console.log(persona["edad"]);
+console.log(persona.nota);
+console.log(persona.aprobado);
