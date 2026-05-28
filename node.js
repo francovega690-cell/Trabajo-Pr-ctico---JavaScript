@@ -1,9 +1,5 @@
-let edad = 17;
+let numero = 2;
 
-if (edad < 13) {
-  console.log("Niño");
-} else if (edad >= 13 && edad <= 17) {
-  console.log("Adolescente");
-} else {
-  console.log("Adulto");
+for (let i = 0; i <= 10; i++) {
+  console.log(numero + "x" + i + "=" + numero * i);
 }
