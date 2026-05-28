@@ -1,4 +1,6 @@
-const notas = [9, 2, 4, 8, 10];
+const nombre = "Matias";
+const notas = [1, 8, 9, 9, 10];
+
 let suma = 0;
 
 for (let i = 0; i < notas.length; i++) {
@@ -6,7 +8,18 @@ for (let i = 0; i < notas.length; i++) {
 }
 
 const promedio = suma / notas.length;
-const estado = promedio >= 6 ? "Aprobado" : "Desaprobado";
 
-console.log(`Promedio: ${promedio.toFixed(2)}`);
-console.log(`Estado: ${estado}`);
+let mensaje;
+
+if (promedio >= 7) {
+  mensaje = "Muy bueno";
+} else if (promedio >= 6) {
+  mensaje = "Aprobado";
+} else {
+  mensaje = "Desaprobado";
+}
+
+console.log(`Estudiante: ${nombre}`);
+console.log(`Notas: ${notas}`);
+console.log(`Promedio: ${promedio.toFixed(1)}`);
+console.log(`Resultado: ${mensaje}`);
